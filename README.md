@@ -64,7 +64,8 @@ Users can upload an image, and the app will predict which flower it belongs to, 
 ```bash
 git clone https://github.com/yourusername/flower-classification.git
 cd flower-classification
-2. Install Dependencies
+
+### 2. Install Dependencies
 pip install -r requirements.txt
 
 
@@ -72,10 +73,10 @@ If you don’t have a requirements.txt, install these manually:
 
 pip install tensorflow keras streamlit numpy pillow
 
-3. Run the Web App
+### 3. Run the Web App
 streamlit run app.py
 
-4. Upload an Image
+### 4. Upload an Image
 
 Upload a flower image from your device, and the model will display the predicted flower type and confidence score.
 
